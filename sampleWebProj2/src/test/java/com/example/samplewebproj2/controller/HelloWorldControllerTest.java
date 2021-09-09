@@ -18,7 +18,7 @@ public class HelloWorldControllerTest {
 	public void checkHelloUnit() throws Exception{
 		
 		String response = hwc.hello();
-		assertEquals("Hello Jafar V5", response);
+		assertEquals("Hello Jafar V6", response);
 		
 		
 	}
