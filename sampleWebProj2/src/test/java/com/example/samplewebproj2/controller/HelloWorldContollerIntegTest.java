@@ -23,7 +23,7 @@ public class HelloWorldContollerIntegTest {
 	public void hello() throws Exception {
 		RequestBuilder req=MockMvcRequestBuilders.get("/hello");
 		MvcResult result = mvc.perform(req).andReturn();
-		assertEquals("Hello SRE Team!!", result.getResponse().getContentAsString());
+		assertEquals("Web App 2", result.getResponse().getContentAsString());
 	
 	}
 	
